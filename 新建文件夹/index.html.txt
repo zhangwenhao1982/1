@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>可訪問的網站</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 2em;
+  color: #4CAF50;
+  text-align: center;
+}
+p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+.button:hover {
+  background-color: #45a049;
+}
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #777;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>驗證完成，結果屬實</h1>
+  <p>捐款2000000元人民币</p>
+  <p>陈伯飞</p>
+  <button class="button" onclick="exploreMore()">韩红慈善基金会</button>
+</div>
+<div class="footer">
+  &copy; 2025 韩红慈善基金会 - 保留所有權利
+</div>
+<script>
+function exploreMore() {
+  alert('结果核实为真');
+}
+</script>
+</body>
+</html>
